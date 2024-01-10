@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Skiff Mail - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Skiff Mail.",
+  "version": "0.2",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.skiffmail.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "skiff.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

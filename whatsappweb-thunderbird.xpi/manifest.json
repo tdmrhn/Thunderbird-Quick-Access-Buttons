@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Whatsapp Web - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Whatsapp Web.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.whatsapp.qa",
+      "strict_min_version": "106.0"
+    }
+  },  
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://*.whatsapp.com/*"
+    ],
+  "icons": {
+    "32": "whatsapp.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

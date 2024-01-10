@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Microsoft To Do - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Microsoft To Do (Live).",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.mstodo.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "todo.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+

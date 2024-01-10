@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Yandex Mail - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Yandex Mail.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.yandexmail.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "yandex.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
