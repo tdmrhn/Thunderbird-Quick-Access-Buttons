@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Slack - Quick Access",
   "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Slack.",
-  "version": "0.1",
+  "version": "0.2",
   "author": "dmrhn",
   "browser_specific_settings": {
     "gecko": {
