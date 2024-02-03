@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Bard - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Google Bard AI.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.bard.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "bard.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
