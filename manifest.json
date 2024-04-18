@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "UnInbox - Quick Access",
+  "description": "Quick Access to UnInbox in a new tab with just one click on a simple, stylish icon button on your Spaces toolbar. ",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.uninbox.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "uninbox.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
