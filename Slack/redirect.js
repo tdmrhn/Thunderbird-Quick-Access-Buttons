@@ -13,6 +13,6 @@ browser.webRequest.onBeforeSendHeaders.addListener(
     });
     return { requestHeaders: e.requestHeaders };
   },
-  { urls: ["https://app.slack.com/*"] },
+  { urls: ["https://*.slack.com/*"] },
   ["blocking", "requestHeaders"]
 );
