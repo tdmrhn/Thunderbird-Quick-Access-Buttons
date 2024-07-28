@@ -1,5 +1,5 @@
 browser.spacesToolbar.addButton('Telegram', {
-    title: "Telegram Keep",
+    title: "Telegram",
     defaultIcons: "telegram.svg",
     url: "https://web.telegram.org/a/"
 });
