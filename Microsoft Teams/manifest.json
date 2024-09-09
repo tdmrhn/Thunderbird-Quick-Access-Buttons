@@ -1,15 +1,21 @@
 {
   "manifest_version": 2,
   "name": "Microsoft Teams - Quick Access",
-  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Microsoft Teams.",
-  "version": "0.1",
+  "description": "Quick Access to Microsoft Teams in a new tab with just one click on a simple, stylish icon button on your Spaces toolbar.",
+  "version": "0.2",
   "author": "dmrhn",
   "browser_specific_settings": {
     "gecko": {
       "id": "@dmrhn.microsoftteams.qa",
       "strict_min_version": "106.0"
     }
-  },
+  },  
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.microsoft.com/*",
+    "https://*.live.com/*"
+  ],
   "icons": {
     "32": "teams.svg"
   },
