@@ -16,7 +16,7 @@
     "https://*.notion.so/*"
   ],
   "icons": {
-    "32": "todoist.svg"
+    "32": "notion.svg"
   },
   "background": {
     "scripts": [
