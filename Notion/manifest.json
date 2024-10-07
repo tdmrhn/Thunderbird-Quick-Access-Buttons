@@ -10,11 +10,6 @@
       "strict_min_version": "106.0"
     }
   },
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
-    "https://*.notion.so/*"
-  ],
   "icons": {
     "32": "notion.svg"
   },
