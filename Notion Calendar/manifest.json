@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Notion Calendar - Quick Access",
+  "description": "Quick Access to Notion Calendar in a new tab with just one click on a simple, stylish icon button on your Spaces toolbar.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.notion.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.notion.so/*"
+  ],
+
+  "icons": {
+    "32": "notion-calendar.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
