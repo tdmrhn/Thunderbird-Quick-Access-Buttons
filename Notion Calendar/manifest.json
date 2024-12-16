@@ -6,7 +6,7 @@
   "author": "dmrhn",
   "browser_specific_settings": {
     "gecko": {
-      "id": "@dmrhn.notion.qa",
+      "id": "@dmrhn.notion.calendar.qa",
       "strict_min_version": "106.0"
     }
   },
