@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Google Chat - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to Google Chat.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.googlechat.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "chat.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
+
