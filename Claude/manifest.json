@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Claude - Quick Access",
+  "description": "Quick Access to Claude in a new tab with just one click on a simple, stylish icon button on your Spaces toolbar.",
+  "version": "0.1",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.claude.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "icons": {
+    "32": "claude.svg"
+  },
+  "background": {
+    "scripts": [
+      "redirect.js"
+    ]
+  }
+}
