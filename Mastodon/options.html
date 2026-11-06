@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mastodon Quick Access Settings</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      max-width: 600px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+    input[type="url"] {
+      width: 100%;
+      padding: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 12px;
+      padding: 6px 14px;
+    }
+    #status {
+      margin-top: 10px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mastodon Quick Access</h1>
+  <p>Specify the URL of the Mastodon instance you want to open from the Spaces toolbar.</p>
+  <label for="instanceUrl">Mastodon instance URL</label>
+  <input id="instanceUrl" type="url" placeholder="https://mastodon.social/" />
+  <br>
+  <button id="save">Save</button>
+  <p id="status"></p>
+  <script src="options.js"></script>
+</body>
+</html>

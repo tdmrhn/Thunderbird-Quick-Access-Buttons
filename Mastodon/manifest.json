@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Mastodon - Quick Access",
+  "description": "This extension adds a simple button to your Spaces toolbar that opens in a new tab, providing you with one-click access to a Mastodon instance. The instance URL can be configured in the extension settings.",
+  "version": "1.0",
+  "author": "dmrhn",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@dmrhn.mastodon.qa",
+      "strict_min_version": "106.0"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "32": "mastodon.svg"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true,
+    "browser_style": true
+  }
+}
